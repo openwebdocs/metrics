@@ -8,7 +8,8 @@
   },
   "scripts": {
     "fetch-prs": "node --env-file=.env fetch/pull-requests.js",
-    "fetch-reviews": "node --env-file=.env fetch/reviews.js"
+    "fetch-reviews": "node --env-file=.env fetch/reviews.js",
+    "metric-merged-prs": "node analyze/merged-prs-per-author.js"
   },
   "repository": {
     "type": "git",

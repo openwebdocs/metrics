@@ -16,7 +16,9 @@ You can fetch and store raw GitHub API data:
 
 ## Available metrics
 
-TBD
+You can gather the following metrics:
+
+- `npm run metric-merged-prs <repo> <year>` to show the number of merged PRs per PR author for a repository. The year filter is optional.
 
 ## Working with large file storage (Git LFS)
 
