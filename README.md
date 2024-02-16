@@ -19,6 +19,7 @@ You can fetch and store raw GitHub API data:
 You can gather the following metrics:
 
 - `npm run metric-merged-prs <repo> <year>` to show the number of merged PRs per PR author for a repository. The year filter is optional.
+- `npm run metric-reviewers <repo> <year> <cohort>` to show the number reviews for a repository. The year filter is optional. The cohort filter is optional and can be used to only take into account reviews performed on PRs authored by non-maintainers ("community PRs").
 
 ## Working with large file storage (Git LFS)
 
