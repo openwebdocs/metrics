@@ -2,6 +2,18 @@
 
 Package to retrieve, analyze, and show OWD-relevant metrics.
 
+## Set up & usage
+
+You can fetch and store raw GitHub API data:
+
+- `npm run fetch-prs <repo>` to get all PRs of a repo.
+  - Example: `npm run fetch-prs mdn/content`
+- `npm run fetch-reviews <repo> <year>` to get all reviews (excluding comment reviews) in the given year
+  - Example: `npm run fetch-reviews mdn/content 2023`
+
+> [!NOTE]
+> Fetching data from the GitHub API requires a [GitHub Personal access token](https://github.com/settings/tokens). Generate your token and put it in the `.env` file (rename the `.env-dist` file).
+
 ## Available metrics
 
 TBD

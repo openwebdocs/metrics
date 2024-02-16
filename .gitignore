@@ -1,2 +1,4 @@
 .DS_Store
 .env
+progress.json
+accumulated-reviews.json
