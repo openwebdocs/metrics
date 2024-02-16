@@ -1,3 +1,6 @@
 raw-data/mdn-content-prs.json filter=lfs diff=lfs merge=lfs -text
 raw-data/mdn-browser-compat-data-prs.json filter=lfs diff=lfs merge=lfs -text
 raw-data/openwebdocs-mdn-bcd-collector-prs.json filter=lfs diff=lfs merge=lfs -text
+raw-data/mdn-browser-compat-data-reviews-2023.json filter=lfs diff=lfs merge=lfs -text
+raw-data/mdn-content-reviews-2023.json filter=lfs diff=lfs merge=lfs -text
+raw-data/openwebdocs-mdn-bcd-collector-reviews-2023.json filter=lfs diff=lfs merge=lfs -text
