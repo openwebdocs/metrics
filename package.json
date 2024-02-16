@@ -1,0 +1,23 @@
+{
+  "name": "metrics",
+  "version": "1.0.0",
+  "description": "Package to retrieve, analyze, and show OWD-relevant metrics",
+  "engines": {
+    "node": ">=20",
+    "npm": ">=10"
+  },
+  "scripts": {
+    "fetch-prs": "node --env-file=.env fetch/pull-requests.js",
+    "fetch-reviews": "node --env-file=.env fetch/reviews.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/openwebdocs/metrics.git"
+  },
+  "author": "Open Web Docs",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/openwebdocs/metrics/issues"
+  },
+  "homepage": "https://github.com/openwebdocs/metrics#readme"
+}
